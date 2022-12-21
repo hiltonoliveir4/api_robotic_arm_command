@@ -24,8 +24,6 @@ def post_command():
     commands.append(request.get_json())
     return jsonify(commands)
 
-app.run(port=5000, debug=True, host="localhost")
-
 
 
 
